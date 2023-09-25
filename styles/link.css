@@ -1,0 +1,28 @@
+
+/*
+    link.css
+*/
+
+
+
+.link {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgb(100, 35, 107);
+    border: 1px solid rgb(100, 35, 107);
+    border-radius: 15px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+
+.button:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: rgb(243, 243, 243);
+}
+
+

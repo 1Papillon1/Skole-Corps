@@ -1,0 +1,125 @@
+
+
+.layout {
+    margin-top: 25vh;
+    display: flex;
+    justify-content: center;
+}
+
+.layout--secondary {
+    margin-top: 5vh;
+}
+
+.subtitle {
+    font-family: Cambria;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.block {
+    padding: 20px;
+}
+
+.block--secondary {
+    padding: 35px;
+    padding-bottom: 10px;
+}
+
+.form {
+    background-color: rgb(249, 198, 254);
+    border-radius: 15px;
+}
+
+.form--secondary {
+    margin-top: 15vh;
+}
+
+.fieldset {
+    margin-top: 10px;
+}
+
+.legend {
+    font-size: 18px;
+    font-family: Cambria;
+}
+
+.label {
+    font-family: Cambria;
+    font-size: 18px;
+}
+
+.input {
+    display: block;
+    margin-bottom: 3vh;
+    margin-top: 1vh;
+    width: 15rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 3px;
+}
+
+.button {
+    font-family: Arial;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid rgb(100, 35, 107); 
+    background-color: rgb(100, 35, 107);
+    color: white;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+
+
+
+.button--secondary {
+    border-radius: 5px;
+}
+
+.button:hover {
+    transition: 0.3s;
+    background-color: rgb(166, 58, 178);
+    border: 1px solid rgb(166, 58, 178);
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.wrapper--secondary {
+    margin: 10px;
+}
+
+.link--secondary {
+    position: absolute;
+    clear: both;
+    top: 8vh;
+    left: 2vw;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+
+.link--secondary:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: rgb(243, 243, 243);
+}
+
+.error {
+    background-color: #F2DEDE;
+    color: rgb(229, 66, 66);
+    padding: 10px;
+    margin: 20px auto;
+    font-size: 18px;
+}
+
